@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyCalc v1.0</string>
+    <string name="num1">First number</string>
+    <string name="num2">Second Number</string>
+    <string name="Button">Get Result</string>
+    <string name="Result">?</string>
+
+</resources>

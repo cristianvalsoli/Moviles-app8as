@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menur"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Item"
+        app:showAsAction="always">
+        <menu>
+        <item
+            android:id="@+id/Lmale"
+            android:title="List Male users"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/Lfemale"
+            android:title="List female users"
+            app:showAsAction="never" />
+        <item
+        android:id="@+id/Lall"
+        android:title="List all users"
+        app:showAsAction="never" />
+        <item
+            android:id="@+id/abou"
+            android:title="About me"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/logu"
+            android:title="Logout"
+            app:showAsAction="never" />
+    </menu>
+
+    </item>
+    </menu>

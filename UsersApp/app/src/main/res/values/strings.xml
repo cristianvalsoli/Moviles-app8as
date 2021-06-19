@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">UsersApp</string>
+    <string name="NameActionbarList">User List</string>
+    <string name="labelUsername">Username</string>
+    <string name="labelpassword">Password</string>
+    <string name="buttonsingin">SING IN</string>
+    <string name="buttonsingup">SING UP</string>
+    <string name="labelFirtName">Firstname</string>
+    <string name="LabelLast">Lastname</string>
+
+    <string name="formato_fecha">dd/mm/yyyy</string>
+    <string name="formato_hora">hh:mm</string>
+    <string name="LabelPhone">Phone   </string>
+    <string name="LabelGender">Gender   </string>
+    <string name="Labelupd">Update  </string>
+    <string name="LabelCount">Country </string>
+    <string name="LabelBird">Bird    </string>
+    <string name="labelcon">Confirm Password</string>
+    <string name="ButtonRegi">Register</string>
+
+</resources>

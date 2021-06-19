@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/back"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/LabelFirstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelFirtName"
+            android:textColor="#070707"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/labelL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/LabelLast"
+            android:textColor="#070707"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/inputLastna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:ems="10"
+            android:inputType="textPersonName"
+             android:text="Name" />
+
+        <TextView
+            android:id="@+id/LabelUsersApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/app_name"
+            android:textColor="#070707"
+
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/inputUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/LabelPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/labelpassword"
+            android:textColor="#070707"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/inputPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/LabelConfir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/labelcon"
+            android:textColor="#070707"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/inputConfir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/ButtonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:background="@color/red"
+            android:text="@string/ButtonRegi"
+            android:onClick="openSingUp"
+            app:backgroundTint="@color/red" />
+
+    </LinearLayout>
+</RelativeLayout>

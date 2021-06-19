@@ -1,0 +1,10 @@
+com/pacificris/weather/BuildConfig.java
+ com.pacificris.weather.BuildConfig
+com/pacificris/weather/MainActivity.java
+ com.pacificris.weather.MainActivity
+ com.pacificris.weather.MainActivity$1
+ com.pacificris.weather.MainActivity$2
+ com.pacificris.weather.MainActivity$3
+ com.pacificris.weather.MainActivity$3$1
+com/pacificris/weather/CAFData.java
+ com.pacificris.weather.CAFData
