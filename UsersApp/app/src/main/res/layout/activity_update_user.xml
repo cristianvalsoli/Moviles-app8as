@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SingUp">
+    tools:context=".Update_user">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,8 +12,8 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="10dp"
-        android:background="@drawable/back"
         android:layout_marginBottom="10dp"
+        android:background="@drawable/back"
         android:orientation="vertical"
         android:paddingLeft="20dp"
         android:paddingRight="20dp">
@@ -37,7 +37,7 @@
                 android:textSize="30sp" />
 
             <EditText
-                android:id="@+id/inputLastna"
+                android:id="@+id/inputname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
@@ -68,7 +68,7 @@
                 android:textSize="30sp" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/imputlname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -98,7 +98,7 @@
                 android:textSize="30sp" />
 
             <EditText
-                android:id="@+id/editTextTextEmailAddress2"
+                android:id="@+id/inputUsername"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -129,7 +129,7 @@
                 android:textSize="30sp" />
 
             <EditText
-                android:id="@+id/editTextTextPassword"
+                android:id="@+id/inputpass"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -261,7 +261,7 @@
 
             android:layout_marginTop="20dp"
             android:background="@color/red"
-            android:onClick="openSingUp"
+            android:onClick="openUserlist"
             android:text="@string/ButtonRegi"
             android:textSize="30sp"
             app:backgroundTint="@color/red" />

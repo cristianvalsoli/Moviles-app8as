@@ -19,12 +19,14 @@ public class SingUp extends AppCompatActivity {
         BR=(Button) findViewById(R.id.ButtonRegister);
     }
     public void openSingUp(View view) {
-        startActivity(new Intent(this, UserList.class));
+        startActivity(new Intent(this, MainActivity.class));
     }
  public void validar (){
 
  }
 
+
+ 
     public  boolean Vacio(EditText campo){
         String dato = campo.getText().toString().trim();
         if(TextUtils.isEmpty(dato)){

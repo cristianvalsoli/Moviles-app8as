@@ -32,10 +32,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:background="@drawable/back"
-            android:ems="10"
-            android:inputType="textPersonName"
             android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
-            android:text="Name" />
+            android:ems="10"
+            android:inputType="textPersonName" />
 
         <TextView
             android:id="@+id/labelL"
@@ -46,14 +45,13 @@
             android:textSize="30sp" />
 
         <EditText
-            android:id="@+id/inputLastna"
+            android:id="@+id/inputname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:background="@drawable/back"
             android:ems="10"
-            android:inputType="textPersonName"
-             android:text="Name" />
+            android:inputType="textPersonName" />
 
         <TextView
             android:id="@+id/LabelUsersApp"
@@ -121,7 +119,6 @@
             android:layout_marginTop="20dp"
             android:background="@color/red"
             android:text="@string/ButtonRegi"
-            android:onClick="openSingUp"
             app:backgroundTint="@color/red" />
 
     </LinearLayout>

@@ -30,6 +30,9 @@ private List<userobj> usuarios = new ArrayList<>();
     String Country;
     String Phone;
     String gender;
+    public List getUsuarios(){
+        return usuarios;
+    }
     public void upUsers(){
         usuarios.add(new userobj("Vanesa","Valdez","vanesa@gmail.com","super","12/08/25","colombia","3113662698","F"));
         usuarios.add(new userobj("Ivan","Valdez","vanesa@gmail.com","super","12/08/25","colombia","3113662698","M"));

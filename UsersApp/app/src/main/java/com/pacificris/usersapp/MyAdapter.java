@@ -11,6 +11,7 @@ import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.widget.PopupMenu;
 import androidx.recyclerview.widget.RecyclerView;
@@ -102,11 +103,29 @@ public  LinearLayout getLinear(){
                     public boolean onMenuItemClick(MenuItem item) {
                         switch (item.getItemId()) {
                             case R.id.upd:
-                                Intent myIntent = new Intent(mCtx, Update_user.class);
 
-                                mCtx.startActivity(myIntent);
+
+                                Intent  intent = new Intent(v.getContext(), Update_user.class);
+                                intent.putExtra("id",position);
+                                intent.putExtra("firsname",usuarios.get(position).Firsname);
+
+                                intent.putExtra("Birth",usuarios.get(position).Birth);
+                                intent.putExtra("country",usuarios.get(position).Country);
+                                intent.putExtra("gender",usuarios.get(position).gender.trim());
+                                intent.putExtra("lasname",usuarios.get(position).Lastname);
+                                intent.putExtra("phone",usuarios.get(position).Phone);
+                                intent.putExtra("username","hola");
+                                intent.putExtra("password",usuarios.get(position).Password);
+
+
+                                mCtx.startActivity(intent);
+
                                 return true;
                             case R.id.dele:
+                            //    Toast.makeText(this,(position+""), Toast.LENGTH_SHORT).show();
+
+                                usuarios.remove(position);
+                             notifyItemRemoved(position);
                                 //handle menu2 click
                                 return true;
                             default:
